@@ -1,0 +1,35 @@
+{
+  "name": "synapse-ai-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "15.0.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "@langchain/langgraph": "^0.2.0",
+    "@langchain/openai": "^0.3.0",
+    "@langchain/core": "^0.3.0",
+    "mongoose": "^8.7.0",
+    "mongodb": "^6.9.0",
+    "openai": "^4.67.0",
+    "pdf-parse": "^1.1.1",
+    "papaparse": "^5.4.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.15",
+    "recharts": "^2.12.7",
+    "framer-motion": "^11.9.0",
+    "zod": "^3.23.8",
+    "tailwindcss": "^3.4.13"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "@types/react": "^18.3.9",
+    "@types/multer": "^1.4.12",
+    "typescript": "^5.6.2"
+  }
+}
